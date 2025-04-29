@@ -3,29 +3,31 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script defer src="ejercicio1.js"></script>
   <title>Ejercicio 1</title>
-  <script defer src="./ejercicio1.js"></script>
 </head>
 <body>
   <div>
     <form>
       <div>
         <label>Nombre: </label>
-        <input id="nombre" type="text"/>
+        <input id="nombre" type="text">
+        <div id="nombre_Error"></div>
       </div>
       <div>
         <label>Correo Electronico: </label>
-        <input id="correo" type="text"/>
+        <input id="correo" type="text">
+        <div id="correo_Error"></div>
       </div>
       <div>
         <label>Mensaje: </label>
         <textarea id="mensaje"></textarea>
+        <div id="mensaje_Error"></div>
       </div>
       <div>
-        <button id="but_enviar" type="button">Enviar</button>
+        <button id="but_Enviar" type="button">Enviar</button>
       </div>
     </form>
   </div>
-  <div id="area_mensajes"></div>
 </body>
 </html>
